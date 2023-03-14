@@ -46,7 +46,7 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 
 ---
 
-# Canto Identity contest details
+# Canto Identity Subprotocols contest details
 - Total Prize Pool: Sum of below awards
   - HM awards: XXX XXX
   - QA report awards: XXX XXX 
