@@ -94,25 +94,25 @@ Automated findings output for the contest can be found [here](add link to report
 ## Scoping Details 
 ```
 - If you have a public code repo, please share it here:  
-- How many contracts are in scope?:   
-- Total SLoC for these contracts?:  
-- How many external imports are there?:  
-- How many separate interfaces and struct definitions are there for the contracts within scope?:  
-- Does most of your code generally use composition or inheritance?:   
-- How many external calls?:   
-- What is the overall line coverage percentage provided by your tests?:  
-- Is there a need to understand a separate part of the codebase / get context in order to audit this part of the protocol?:   
-- Please describe required context:   
-- Does it use an oracle?:  
+- How many contracts are in scope?:   5
+- Total SLoC for these contracts?:  687
+- How many external imports are there?: 14  
+- How many separate interfaces and struct definitions are there for the contracts within scope?:  1
+- Does most of your code generally use composition or inheritance?:   Inheritance
+- How many external calls?:   5
+- What is the overall line coverage percentage provided by your tests?:  100
+- Is there a need to understand a separate part of the codebase / get context in order to audit this part of the protocol?: true  
+- Please describe required context:   Understanding Canto Identity Protocol (which was previously audited) is helpful, as these are subprotocols for it. But it is not strictly required
+- Does it use an oracle?:  No
 - Does the token conform to the ERC20 standard?:  
-- Are there any novel or unique curve logic or mathematical models?: 
-- Does it use a timelock function?:  
-- Is it an NFT?: 
-- Does it have an AMM?:   
-- Is it a fork of a popular project?:   
-- Does it use rollups?:   
-- Is it multi-chain?:  
-- Does it use a side-chain?: 
+- Are there any novel or unique curve logic or mathematical models?: No
+- Does it use a timelock function?: No 
+- Is it an NFT?: Yes
+- Does it have an AMM?:   No
+- Is it a fork of a popular project?:  false 
+- Does it use rollups?:   false
+- Is it multi-chain?:  false
+- Does it use a side-chain?: false
 ```
 
 # Tests
