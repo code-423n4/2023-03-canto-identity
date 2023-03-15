@@ -1,0 +1,11 @@
+    {
+      "label": "Prettier",
+      "type": "shell",
+      "command": "npm run prettier",
+      "args": [ ],
+      "options": { "cwd": "${workspaceFolder}" },
+      "presentation": {
+        "clear": true
+      },
+      "problemMatchers": []
+    }
