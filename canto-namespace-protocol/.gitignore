@@ -1,0 +1,6 @@
+out/
+cache/
+node_modules/
+utils/data/
+.env
+.DS_Store
