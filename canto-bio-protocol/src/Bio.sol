@@ -38,6 +38,7 @@ contract Bio is ERC721 {
     }
 
     /// @notice Get the token URI for the specified _id
+    /// @dev Generates an on-chain SVG with a new line after 40 bytes. Line splitting generally supports UTF-8 multibyte characters and emojis, but is not tested for arbitrary UTF-8 characters
     /// @param _id ID to query for
     function tokenURI(uint256 _id) public view override returns (string memory) {
         if (_ownerOf[_id] == address(0)) revert TokenNotMinted(_id);
