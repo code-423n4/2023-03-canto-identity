@@ -71,7 +71,6 @@ All three subprotocols are Canto Identity Protocol subprotocols, so it might be 
 
 # Tests
 
-*Provide every step required to build the project from a fresh git clone, as well as steps to run the tests with a gas report.* 
 
 To run the tests including a gas report, run the following command in every folder (`canto-bio-protocol`, `canto-namespace-protocol`, `canto-pfp-protocol`):
 ```
