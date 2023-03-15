@@ -1,9 +1,9 @@
 # Canto Identity Subprotocols contest details
-- Total Prize Pool: $36,500 worth of CANTO
-  - HM awards: $25,500 worth of CANTO
-  - QA report awards: $3,000 worth of CANTO 
-  - Gas report awards: $1,500 worth of CANTO
-  - Judge + presort awards: 6,000 worth of CANTO 
+- Total Prize Pool: $36,500
+  - HM awards: $25,500
+  - QA report awards: $3,000
+  - Gas report awards: $1,500
+  - Judge + presort awards: 6,000
   - Scout awards: $500 USDC
 - Join [C4 Discord](https://discord.gg/code4rena) to register
 - Submit findings [using the C4 form](https://code4rena.com/contests/2023-03-canto-identity-subprotocols-contest/submit)
