@@ -47,17 +47,17 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 ---
 
 # Canto Identity Subprotocols contest details
-- Total Prize Pool: Sum of below awards
-  - HM awards: XXX XXX
-  - QA report awards: XXX XXX 
-  - Gas report awards: XXX XXX 
-  - Judge + presort awards: XXX XXX 
+- Total Prize Pool: $36,500 worth of CANTO
+  - HM awards: $25,500 worth of CANTO
+  - QA report awards: $3,000 worth of CANTO 
+  - Gas report awards: $1,500 worth of CANTO
+  - Judge + presort awards: 6,000 worth of CANTO 
   - Scout awards: $500 USDC
 - Join [C4 Discord](https://discord.gg/code4rena) to register
 - Submit findings [using the C4 form](https://code4rena.com/contests/2023-03-canto-identity-contest/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
 - Starts March 17, 2023 20:00 UTC
-- Ends TBD XXX XXX XX 20:00 UTC
+- Ends March 20, 2023 20:00 UTC
 
 ## Automated Findings / Publicly Known Issues
 
