@@ -1,15 +1,15 @@
 # Canto Identity Subprotocols contest details
-- Total Prize Pool: Sum of below awards
-  - HM awards: XXX XXX
-  - QA report awards: XXX XXX 
-  - Gas report awards: XXX XXX 
-  - Judge + presort awards: XXX XXX 
+- Total Prize Pool: $36,500 worth of CANTO
+  - HM awards: $25,500 worth of CANTO
+  - QA report awards: $3,000 worth of CANTO 
+  - Gas report awards: $1,500 worth of CANTO
+  - Judge + presort awards: 6,000 worth of CANTO 
   - Scout awards: $500 USDC
 - Join [C4 Discord](https://discord.gg/code4rena) to register
 - Submit findings [using the C4 form](https://code4rena.com/contests/2023-03-canto-identity-contest/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
 - Starts March 17, 2023 20:00 UTC
-- Ends TBD XXX XXX XX 20:00 UTC
+- Ends March 20, 2023 20:00 UTC
 
 ## Automated Findings / Publicly Known Issues
 
@@ -47,26 +47,26 @@ All three subprotocols are Canto Identity Protocol subprotocols, so it might be 
 
 ## Scoping Details 
 ```
-- If you have a public code repo, please share it here: - 
-- How many contracts are in scope?: 5
-- Total SLoC for these contracts?: 687 
-- How many external imports are there?: 14 
-- How many separate interfaces and struct definitions are there for the contracts within scope?: 1
-- Does most of your code generally use composition or inheritance?: composition
-- How many external calls?: 5 
-- What is the overall line coverage percentage provided by your tests?: 100% 
-- Is there a need to understand a separate part of the codebase / get context in order to audit this part of the protocol?: No, but understanding canto identity protocol is helpful
-- Please describe required context: The three NFTs are subprotocols for the canto identity protocol, which was previously audited and is also included for additional context.
-- Does it use an oracle?: No
-- Does the token conform to the ERC20 standard?: No
+- If you have a public code repo, please share it here:  
+- How many contracts are in scope?:   5
+- Total SLoC for these contracts?:  687
+- How many external imports are there?: 14  
+- How many separate interfaces and struct definitions are there for the contracts within scope?:  1
+- Does most of your code generally use composition or inheritance?:   Inheritance
+- How many external calls?:   5
+- What is the overall line coverage percentage provided by your tests?:  100
+- Is there a need to understand a separate part of the codebase / get context in order to audit this part of the protocol?: true  
+- Please describe required context:   Understanding Canto Identity Protocol (which was previously audited) is helpful, as these are subprotocols for it. But it is not strictly required
+- Does it use an oracle?:  No
+- Does the token conform to the ERC20 standard?:  
 - Are there any novel or unique curve logic or mathematical models?: No
-- Does it use a timelock function?: No
+- Does it use a timelock function?: No 
 - Is it an NFT?: Yes
-- Does it have an AMM?: No  
-- Is it a fork of a popular project?: No  
-- Does it use rollups?: No
-- Is it multi-chain?: No
-- Does it use a side-chain?: No
+- Does it have an AMM?:   No
+- Is it a fork of a popular project?:  false 
+- Does it use rollups?:   false
+- Is it multi-chain?:  false
+- Does it use a side-chain?: false
 ```
 
 # Tests
