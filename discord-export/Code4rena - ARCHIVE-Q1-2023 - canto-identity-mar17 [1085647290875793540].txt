@@ -1,0 +1,624 @@
+==============================================================
+Guild: Code4rena
+Channel: ARCHIVE-Q1-2023 / canto-identity-mar17
+==============================================================
+
+[03/15/2023 19:40] kartoonjoy (pinned)
+👋 Hello and welcome to the contest channel for the $36,500 **Canto Identity Subprotocols** contest!
+
+📆 Contest opens 03/17/2023 20:00 (20:00 UTC) and runs through 03/20/2023 20:00 (20:00 UTC) (3 days).
+
+Please give a warm welcome to the Canto Identity Subprotocols team, particularly @Roman, who will be available for questions either here in the channel or via DM.
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this contest, consider enabling notifications for this channel. 🐺 ⏰
+
+Contest Page: https://code4rena.com/contests/2023-03-canto-identity-subprotocols-contest
+
+{Embed}
+https://code4rena.com/contests/2023-03-canto-identity-subprotocols-contest
+Code4rena Canto Identity Subprotocols contest
+$36,500 worth of CANTO
+17 March 2023—20 March 2023
+Code4rena - ARCHIVE-Q1-2023 - canto-identity-mar17 [1085647290875793540].txt_Files/c4-og-banner-0FCFA.png
+
+{Reactions}
+🔥 (4) 
+
+[03/15/2023 19:40] kartoonjoy
+Pinned a message.
+
+
+[03/15/2023 19:41] kartoonjoy
+Hi All 👋! Let's please limit conversation until the contest begins. Thanks!
+
+{Reactions}
+👍 (7) 
+
+[03/17/2023 19:59] kartoonjoy
+@📛+certified Looking for someone to run the automated findings tool  (https://github.com/Picodes/4naly3er) on the in-scope code for the Canto Identity Subprotocols contest and post the results/output in the contest channel.
+
+Compensation: $250 in ARENA. 
+
+Deadline: Must be completed within an hour of contest launch. 
+
+First person who comments gets it.
+
+
+[03/17/2023 19:59] ahmet5611
+me
+
+{Reactions}
+thankyou 🚀 
+
+[03/17/2023 20:11] chaindev
+`canto-namespace-protocol/src/Tray.sol` and `Utils.sol` are out of scope?
+
+
+[03/17/2023 20:13] adriro
+https://github.com/code-423n4/2023-03-canto-identity#files-in-scope
+
+
+[03/17/2023 20:13] chaindev
+ah, my mistake
+
+
+[03/17/2023 20:32] kartoonjoy (pinned)
+Wardens, please note that the automated findings output is posted below. These are considered publicly known issues and are not eligible for awards.
+
+**Automated findings:** 
+https://gist.github.com/ahmedovv123/ac550b389bcbe21043c613e6c6c1b563
+
+
+[03/17/2023 20:33] kartoonjoy
+Pinned a message.
+
+
+[03/17/2023 21:08] adriro
+@Roman sent a dm
+
+{Reactions}
+👍 
+
+[03/17/2023 22:46] orbitalautodev
+@kartoonjoy , is there anywhere to see the findings of the audit of the Identity-Protocol code?
+
+
+[03/17/2023 22:48] kartoonjoy
+It won't be visible until the report is published. I don't have a date for that in this moment though.
+
+
+[03/17/2023 22:54] orbitalautodev
+Ah OK thanks.
+
+
+[03/18/2023 05:57] sathish9098kumar
+what is problem ?
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2023 - canto-identity-mar17 [1085647290875793540].txt_Files/image-5EC9D.png
+
+
+[03/18/2023 08:18] descharre
+Did you solve this? I have the same problem
+
+
+[03/18/2023 08:30] sathish9098kumar
+No not yet
+
+
+[03/18/2023 09:53] descharre
+I work on windows and the following command fixed it:
+cargo install --git https://github.com/foundry-rs/foundry foundry-cli anvil chisel --bins --locked
+
+
+[03/18/2023 10:01] sathish9098kumar
+Okay
+
+
+[03/18/2023 10:20] igingu
+@Roman I dm'ed you as well for some question, would be happy if you could help
+
+{Reactions}
+✅ 
+
+[03/18/2023 11:40] ubl4nk#1934
+Sorry it is too late to ask but is this still valid ?
+
+
+[03/18/2023 11:42] 0xjuancito
+It was already taken, and the report was published on the contest page
+
+
+[03/18/2023 11:44] ubl4nk#1934
+Thanks bro
+
+
+[03/18/2023 14:14] eme0242
+@Roman How will end users interact with the subprotocols please?
+
+
+[03/18/2023 14:17] Lambda#9382
+There will be a frontend for each subprotocol that can be used to mint
+
+
+[03/18/2023 15:17] orbitalautodev
+Another possible newbie question: erc721a appears to be a missing dependency, causing a compile error in the namespace protocol. Is there a "standard library" that I'm missing?
+
+
+[03/18/2023 15:17] orbitalautodev
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2023 - canto-identity-mar17 [1085647290875793540].txt_Files/missing-5A05F.png
+
+
+[03/18/2023 15:18] orbitalautodev
+The other 2 protocols compile with no fuss.
+
+
+[03/18/2023 15:25] orbitalautodev
+OK I answered my own question. You need to run "npm install erc721a". That brings in the file needed.  Also, just running the quickstart command at the bottom of the page does the trick.
+
+
+[03/18/2023 17:51] dysan.
+@Roman can I send you a dm?
+
+
+[03/18/2023 18:19] Lambda#9382
+Sure, go ahead
+
+
+[03/18/2023 19:02] parsely.
+Hi @Roman , may I please ask for just a 2 liner on fusing in the Namespace contract, eg why would a user fuse, why is it limited to 13 chars, what costs more? is it less chars or more chars, please?
+
+
+[03/18/2023 23:42] ubl4nk#1934
+Hi @Roman , Could  you give a brief explanation about the `AssociationType` and its concept & usage ?
+
+
+[03/19/2023 02:50] mlome
+@Roman Can you please explain the purpose of `Turnstile`?
+
+
+[03/19/2023 03:07] orbitalautodev
+Seconded.
+
+
+[03/19/2023 03:09] orbitalautodev
+Whatever it is, it's chainid 7700 only.
+
+
+[03/19/2023 03:10] dontonka
+which is canto chain.
+
+
+[03/19/2023 03:12] dontonka
+it does sort of registration, but identity subprotocol do the same (in fact all the subprotocols) and have been audited already, so i would not worry too much about it in the contracts in scope.
+
+{Reactions}
+✅ (2) 
+
+[03/19/2023 04:11] bitspinner
+Based on the verbiage in this video around 45min, it’s a way for the authors of the contract to collect some gas fees. Seems like Canto promotes this to incentivize builders. 
+
+https://youtu.be/pHP1hA7WGA8
+
+This actually prompted me to find this documentation with a description and a link to the source code. 
+
+https://docs.canto.io/evm-development/contract-secured-revenue
+
+{Embed}
+Metaverse HQ
+https://www.youtube.com/shorts/pHP1hA7WGA8
+Early Canto Identity Protocol | Discord AMA w/ CNS (Canto Name Serv...
+Listen to our chat with the Canto Name Service (CNS) team, hosted by THC! We discussed their inclusive DNS for Canto, participating in Canto Online Hackathon and more!
+.
+.
+.
+#MVHQ #MVHQNews #nft #nfts #nftnews #nftart #crypto #web3 #blockchain #ethereum #NFTCommunity #nftcollector #nftcollectors #shorts #shortsfeed 
+ #NonFungibleTokens #CryptoAr...
+Code4rena - ARCHIVE-Q1-2023 - canto-identity-mar17 [1085647290875793540].txt_Files/maxresdefault-A8E35.jpg
+
+{Embed}
+https://docs.canto.io/evm-development/contract-secured-revenue
+Contract Secured Revenue (CSR)
+Code4rena - ARCHIVE-Q1-2023 - canto-identity-mar17 [1085647290875793540].txt_Files/s0mjXRz9RIq2Csw6wDlO-1B322.png
+
+{Reactions}
+👍 
+
+[03/19/2023 11:20] Lambda#9382
+Fusing is the only way to construct new names. For instance, if you want to own :canto: 𝓹arse𝖑y, you need trays that contain each of these characters (you can either mint these trays or buy them from someone). It costs more to fuse shorter name because they are more exclusive. 13 is just an upper limit to not have too long names
+
+
+[03/19/2023 11:24] Lambda#9382
+`AssociationType` defines in which way a subprotocol NFT is associated with the identity NFT. I gave an example for the different types in the last contest, this might for understanding it better:
+> By choosing the association type, you can control how your subprotocol can/will be used. For instance, let's imagine there is a subprotocol that represents friends (so each NFT of the subprotocol would be a friend). You could in theory register that with the three different types, which would change the meaning of the association:
+> - PRIMARY: You can have exactly one (or zero) friends. Probably not very sensible, but in that case it could represent "My best friend" for instance
+> - ORDERED: You can have many friends and they are ordered. That would be like the top 8 friends on MySpace back in the day
+> - ACTIVE: You can have many friends and they are not ordered. This is the classical social media model that Facebook & co. uses
+
+
+[03/19/2023 11:28] Lambda#9382
+This is related to CSR (contract secured revenue): https://docs.canto.io/evm-development/contract-secured-revenue
+With this registration, 20% of all gas fees are sent to the NFT.
+Btw, there was also an audit contest for CSR: https://github.com/code-423n4/2022-11-canto
+If you are interested in the implementation, the code is in this repo
+
+{Embed}
+https://docs.canto.io/evm-development/contract-secured-revenue
+Contract Secured Revenue (CSR)
+Code4rena - ARCHIVE-Q1-2023 - canto-identity-mar17 [1085647290875793540].txt_Files/s0mjXRz9RIq2Csw6wDlO-1B322.png
+
+{Embed}
+https://github.com/code-423n4/2022-11-canto
+GitHub - code-423n4/2022-11-canto
+Contribute to code-423n4/2022-11-canto development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q1-2023 - canto-identity-mar17 [1085647290875793540].txt_Files/8df1cc3b-fef3-481c-b99d-398698165d39-CBEE2
+
+
+[03/19/2023 15:28] orbitalautodev
+Is there a way to track how many issues have been submitted so far?
+
+
+[03/19/2023 20:10] ubl4nk#1934
+How a nice explanation, Thanks 🙂
+
+
+[03/19/2023 20:18] havewemeetbefore
+How did you fix this error?
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2023 - canto-identity-mar17 [1085647290875793540].txt_Files/Screenshot_20230319-133338-F652D.jpg
+
+
+[03/19/2023 20:33] sovaslava9
+Where will be show josn from nft data?
+
+
+[03/19/2023 20:48] orbitalautodev
+Did you run the quickstart command at the bottom of the page?
+
+
+[03/19/2023 22:24] Lambda#9382
+Not sure if I understand the question correctly: Do you mean where the `tokenURI` output of the NFTs will be displayed? In practice in the frontend and NFT marketplaces. But it might also be shown in other places, as this function is part of the ERC721 metadata extension, so any client/frontend that supports this might consume this output
+
+
+[03/20/2023 06:49] parsely.
+Thank you very much.
+
+
+[03/20/2023 07:52] parsely.
+@Roman May I please DM for a question, just to check my understanding of the code and if something would be considered a bug please?
+
+
+[03/20/2023 08:52] Lambda#9382
+Sure, go ahead
+
+
+[03/20/2023 09:01] parsely.
+@Roman  It failed to deliver, Do i need to send a friend request first?
+
+
+[03/20/2023 09:01] Lambda#9382
+My DMs should be open, I think you can directly write
+
+
+[03/20/2023 09:01] parsely.
+trying again
+
+
+[03/20/2023 09:03] parsely.
+it keeps failing, however the name is not Roman that its try to send to is that correct?
+
+
+[03/20/2023 09:05] Lambda#9382
+I think the easiest way is if you click on my name and then type in the message box there. I can't DM you because your DMs are closed
+
+
+[03/20/2023 09:07] parsely.
+ok went through now, tempoarily enabled DM's on my side
+
+{Reactions}
+✅ 
+
+[03/20/2023 09:29] sovaslava9
+Where i can find source code of cidNFT?
+
+
+[03/20/2023 09:30] Lambda#9382
+https://github.com/code-423n4/2023-03-canto-identity/blob/main/canto-identity-protocol/src/CidNFT.sol
+
+{Reactions}
+🙏🏼 (2) 
+
+[03/20/2023 10:47] Franfran#5067
+Any idea on why my submodules are not pulled in this sub-repo ? https://github.com/code-423n4/2023-03-canto-identity/tree/main/canto-identity-protocol
+
+{Embed}
+https://github.com/code-423n4/2023-03-canto-identity/tree/main/canto-identity-protocol
+2023-03-canto-identity/canto-identity-protocol at main · code-423n4...
+Contribute to code-423n4/2023-03-canto-identity development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q1-2023 - canto-identity-mar17 [1085647290875793540].txt_Files/7d126b02-af69-4eb2-814e-aa5ee8dab294-0F0C9
+
+
+[03/20/2023 10:47] Franfran#5067
+I've ran `git submodule update --init --recursive` but the `lib/` in the submodules won't appear in my file system
+
+
+[03/20/2023 10:50] parsely.
+@Franfran Not sure if its related to what you are experiencing, but quite a few things were added with NPM install command in my local directory. NPM install seems to pull from github for some other files.
+
+
+[03/20/2023 10:58] Lambda#9382
+I think I did not copy the git submodule information there because I only included it for reference purposes. But if you want to compile it, manually installing the dependencies via `forge install` should work. The dependencies are `ds-test`, `forge-std`, and `solmate`
+
+
+[03/20/2023 13:24] Deleted User
+Hello, I appended --remote-submodules --quiet to git clone
+But still having problems with Namespace.  The other folders are fine.
+
+
+[03/20/2023 13:25] Lambda#9382
+Did you run `npm install` or the quickstart command? `npm install` is necessary for Namespace
+
+
+[03/20/2023 13:26] Deleted User
+I will now.  But in what folder do I run it?
+
+
+[03/20/2023 13:26] Lambda#9382
+`canto-namespace-protocol`
+
+{Reactions}
+👍 
+
+[03/20/2023 13:27] Deleted User
+Cheers
+
+
+[03/20/2023 13:32] Deleted User
+It worked, nice one!
+
+{Reactions}
+👍 
+
+[03/20/2023 17:35] deathstore
+can i post links (not to gh, but to stackoverwlow ( for example))  in my reports?
+
+
+[03/20/2023 20:02] C4
+**🚨 CONTEST ALERT**
+
+@🐺wardens The **Canto Identity Subprotocols** contest is now closed! Huge thanks to everyone who participated 🔍, whether you submitted a finding or not.
+
+What's next: The sponsor team and judge will review the findings over the next couple of weeks. Keep an eye on #📢announcements for regular updates on how the contest is progressing through awarding 🤑🏆, judging 🧑‍⚖️ and reporting 📜. Feel free to ping a gardener if you have questions along the way!
+
+
+[03/20/2023 20:09] igingu
+Great work everyone, and thanks @Roman for all the help!!!
+
+{Reactions}
+💯 (10) 
+
+[03/21/2023 01:27] hujiawei
+:dance_vibe:
+
+
+[03/21/2023 11:36] parsely.
+Well done to the Dev team the code was really good in my opinion. I found something that might be a semi-reasonable finding and as I got my PoC working, I realized the contest closed 20 minutes prior. 😢
+
+{Reactions}
+hi5 (7) 
+
+[03/21/2023 15:38] jauvany
+Harsh, sorry about that!
+
+
+[03/21/2023 15:39] parsely.
+Thank you very much
+
+
+[04/11/2023 15:14] dec3ntraliz3d
+wen ? 🙂
+
+{Reactions}
+thisisfine (7) 🔥 (3) 
+
+[04/19/2023 20:54] liveactionllamac4
+:code4rena: 💸 🎉 Awards for **Canto Identity Subprotocols**:
+
+$9,809.84 USDC » @d3e4 
+$4,472.49 USDC » @adriro 
+$3,269.95 USDC » @cccz 
+$1,992.81 USDC » @volodya 
+$1,151.77 USDC » @Haipls 
+$882.89 USDC » @glcanvas 
+$695.73 USDC » @igingu 
+$435.84 USDC » @descharre 
+$423.80 USDC » @IgorZuk  
+$401.03 USDC » @Rappie 
+$401.03 USDC » @dec3ntraliz3d 
+$401.03 USDC » @Emmanuel 
+$401.03 USDC » @m9800 
+$339.57 USDC » @fs0c 
+$308.01 USDC » @Sathish9098 
+$278.11 USDC » @0xSmartContract 
+$254.83 USDC » @0xnev  
+$254.83 USDC » @Rolezn 
+$209.15 USDC » @Jerry0x 
+$189.28 USDC » @slvDev 
+$177.24 USDC » @chaduke 
+$177.24 USDC » @web3creed  
+$177.24 USDC » @mojito_auditor 
+$177.24 USDC » @wait 
+$177.24 USDC » @0xAgro 
+$128.34 USDC » @lucyoa  
+$103.65 USDC » @juancito 
+$100.36 USDC » @atharvasama 
+$100.36 USDC » @0xdaydream 
+$100.36 USDC » @nadin 
+$100.36 USDC » @code-cipher 
+$82.51 USDC » @J4de 
+$77.59 USDC » @K42 Ψ  
+$77.59 USDC » @ReyAdmirado 
+$77.59 USDC » @0xFanz 
+$77.59 USDC » @JCN 
+$77.59 USDC » @SAAJ 
+$77.59 USDC » @Walter 
+$42.71 USDC » @pipoca 
+$42.71 USDC » @luxartvinsec 
+$39.87 USDC » @Ruhum 
+$39.87 USDC » @Chom 
+$39.87 USDC » @popular00 
+$39.87 USDC » @leopoldjoy 
+$34.81 USDC » @codeslide  
+$34.81 USDC » @Diana 
+$34.81 USDC » @tnevler 
+$34.81 USDC » @Udsen 
+$34.81 USDC » @lukris02 
+$34.81 USDC » @Kresh 
+$31.90 USDC » @MiniGlome (Mlome) 
+$31.90 USDC » @Viktor_Cortess 
+$22.77 USDC » @hihen 
+$22.77 USDC » @tsar 
+$22.77 USDC » @nasri136 
+$22.77 USDC » @Bauchibred 
+$22.77 USDC » @Jack 
+$22.77 USDC » @shark 
+$22.77 USDC » @T1MOH 
+$22.77 USDC » scokaf (@Scoon & @jauvany)
+$22.77 USDC » @iceBear 
+$22.77 USDC » @SunSec 
+$22.77 USDC » @vagrant  
+$22.77 USDC » @Matin  
+$22.77 USDC » @Stryder  
+$22.77 USDC » @cryptonue 
+$22.77 USDC » @Deathstore 
+$22.77 USDC » @Awesome  
+$22.77 USDC » @alejandrocovrr  
+$22.77 USDC » @libratus  
+$22.77 USDC » @joestakey 
+$19.87 USDC » @rokso 
+$19.87 USDC » @djxploit 
+$19.87 USDC » @bin2chen 
+$19.87 USDC » @Englave 
+$19.87 USDC » @Respx 
+$19.87 USDC » @Bitspinner 
+$19.87 USDC » @Parad0x 
+$19.87 USDC » @dingo2077  
+$19.87 USDC » @mjmoonwalker  
+$19.87 USDC » @ulqiorra 
+$19.87 USDC » Wander (@xAlismx, @ubl4nk, & @mahdikarimi)
+$12.03 USDC » @Madalad 
+$12.03 USDC » @arialblack14 
+$12.03 USDC » @ginlee 
+$12.03 USDC » @0xSurena 
+$12.03 USDC » @fatherOfBlocks 
+$12.03 USDC » @Polaris_tow  
+$12.03 USDC » @Rageur  
+$12.03 USDC » @caspersolangii  
+$12.03 USDC » @felipe  
+$12.03 USDC » @turvy_fuzz  
+$12.03 USDC » @Deekshith99  
+$12.03 USDC » @EvanW  
+$12.03 USDC » @Shubham 
+$12.03 USDC » @viking71  
+$12.03 USDC » @anodaram 
+$9.94 USDC » @jasonxiale
+
+{Reactions}
+hi5 (7) ❤️ (5) 👍 (4) 🎉 (4) 
+
+[04/19/2023 20:54] liveactionllamac4
+🏁 Findings summary
+---------------------------
+High risk findings: 9 total, 1 unique
+Med risk findings: 40 total, 9 unique
+Gas reports: 41
+QA reports: 48
+
+Awards will be distributed on Polygon within the next week. Congratulations, everyone! 💸 💸 💸
+
+Note: If you participated in this contest and don’t see your name on this list, please wait until the report is published and the findings repo is made public to check on your submissions.
+
+
+[04/19/2023 20:57] igingu
+Wow, I am so happy! Congrats everyone!
+
+{Reactions}
+🔥 (3) 
+
+[04/19/2023 20:58] adriro
+congrats everyone! @d3e4 that's 3 uniques in a row 🔥
+
+{Reactions}
+💪 (2) 🚀 (2) 
+
+[04/19/2023 20:58] 0xjuancito
+Congrats ser! You're nailing it! 🫡
+
+{Reactions}
+❤️ (2) 
+
+[04/19/2023 21:03] xAlismx#6669
+@ubl4nk @mahdikarimi Quantity is not important, quality is important
+
+{Reactions}
+😂 (2) 🤣 (2) 
+
+[04/20/2023 00:12] 0xvolodya
+Wow, thank you!
+
+{Reactions}
+🔥 (2) 
+
+[04/20/2023 01:07] dec3ntraliz3d
+congratulations everyone !
+
+
+[04/20/2023 03:38] 0xnevi
+Congrats guys you all are killing it
+
+{Reactions}
+💜 
+
+[04/20/2023 06:14] shubh0412
+🫡
+
+
+[04/20/2023 10:13] dicethedev
+wow. I made it on the list. Thanks guys! I will do better next time and next contest
+
+
+[04/20/2023 10:42] chaduke3730
+@web3creedgreat job, congrats!
+
+
+[04/20/2023 10:59] dicethedev
+Thanks man
+
+
+[04/20/2023 12:34] chaduke3730
+You are welcome!
+
+{Reactions}
+🫡 
+
+[04/20/2023 12:34] chaduke3730
+@web3creed
+
+
+[04/20/2023 18:18] t1moh
+Wow first 2 figures
+
+{Reactions}
+👍 (2) 
+
+[04/21/2023 08:05] chaduke3730
+Cool
+
+
+==============================================================
+Exported 94 message(s)
+==============================================================
